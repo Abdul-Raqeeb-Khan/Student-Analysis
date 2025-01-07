@@ -11,7 +11,6 @@ This project aims to analyze and evaluate the effectiveness of various teaching 
 4. [How to Use](#how-to-use)
 5. [Notebooks and Scripts](#notebooks-and-scripts)
 6. [Future Enhancements](#future-enhancements)
-7. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -55,3 +54,21 @@ Education is a cornerstone of societal progress, and understanding the impact of
    ```bash
    git clone https://github.com/Abdul-Raqeeb-Khan/Student-Analysis
    cd Student-Analysis
+## Notebooks and Scripts
+    app.py
+ -This is the Streamlit application file that provides:
+    -Interactive UI for data analysis, visualization, and prediction.
+    -Navigation between key sections: Home, Data Overview, Data Visualization, Model Prediction, and Conclusion.
+  IDS_PROJECT_notebook.ipynb
+  This Jupyter notebook includes:
+      -Data Preprocessing: Cleaning and preparing the dataset.
+      -Exploratory Data Analysis (EDA): Generating visualizations and insights.
+      -Statistical Analysis: Kruskal-Wallis and Chi-Square tests for significant patterns.
+      -Machine Learning: Training and evaluating a Gradient Boosting Classifier for predicting effective teaching methods.
+## Future Enhancements
+-Expand support for additional machine learning models.
+-Add time-series analysis for longitudinal educational data.
+-Enhance the user interface with advanced interactive elements.
+-Incorporate real-time data collection and feedback mechanisms.
+-Develop a dashboard for comparing model predictions with real-world outcomes.
+## 
